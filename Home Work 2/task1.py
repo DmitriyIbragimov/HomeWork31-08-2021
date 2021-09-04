@@ -1,3 +1,3 @@
-a = input ("enter number: ")
-print (a)
+a = input ("Введите цифру: ")
+print ("Введённая цифра ",a)
 
