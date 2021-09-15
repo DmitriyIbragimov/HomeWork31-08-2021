@@ -16,7 +16,7 @@ else:
         pass
     else:
         print(a, 'имеет 3 цифры')
-    if (-10 <= a < 10):
+    if (-10 < a < 10):
         print(a,'между -10 и 10')
     else:
         print(a,'не между -10 и 10')
