@@ -1,5 +1,5 @@
 n = int(input('Введите целое число '))
-d = n / 2
+d = int(n / 2)
 while (d <= n):
-                print(int(d))
+                print(d)
                 d = d+1
