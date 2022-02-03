@@ -1,5 +1,7 @@
-list = [14, 88, 13, 7, 94, 51, 22]
-it = iter(list)
-del list[2]
-for x in it:
-    print(x, end=' ')
+list = "123abc"
+print ("Так было до удаления: " + list)
+new_str = ""
+for i in range(0, len(list)):
+    if i != 1: #тут указываем, какой индекс удалить
+        new_str = new_str + list[i]
+print ("Так стало после удаления : " + new_str)

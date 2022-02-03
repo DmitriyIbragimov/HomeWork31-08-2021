@@ -1,6 +1,6 @@
-import re
-r = re.compile("[a-zA-Z .]+")
-list = ['Ф', 'cat', 'Fuck', '...', 'Приветики', '  ', 'hehe','Куа']
-print('Наш массив символов выглядит так: ', list)
-list1 = [w for w in filter(r.findall, list)]
-print('Наш выбранный массив вот такой: ', " ".join(list1))
+list = ['q', 'x', 'ы','R' , 'л', 'j', 'y', 'Q', ' ', ' ', '.', '.']
+stroka = ""
+for i in list:
+            if ord(i) in range(97, 122) or ord(i) in range(65, 90) or ord(i) == 46 or ord(i) == 32:
+                                                                                                    stroka += i
+print(stroka)
