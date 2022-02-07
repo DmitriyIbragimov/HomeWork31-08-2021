@@ -1,7 +1,9 @@
-list = "123abc"
-print ("Так было до удаления: " + list)
+list1 = ["123abc"]
+listtostr = ''.join(list1)
+print ("Так было до удаления: " + listtostr)
 new_str = ""
-for i in range(0, len(list)):
-    if i != 1: #какой индекс удаляем
-        new_str = new_str + list[i]
+a = 2 #тут указываем, какой индекс удалить
+for i in range(0, len(listtostr)):
+    if i != a:
+        new_str = new_str + listtostr[i]
 print ("Так стало после удаления : " + new_str)
